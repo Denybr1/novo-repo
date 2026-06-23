@@ -5,7 +5,13 @@
  * todas as operações de leitura/escrita do bot.
  */
 
-const sqlite3 = require('sqlite3').verbose();
+const Database = require('better-sqlite3');
+const path = require('path');
+
+const DB_PATH = path.join(__dirname, 'gamification.db');
+
+// abre banco
+const db = new Database(DB_PATH);
 const path = require('path');
 
 // Caminho do arquivo de banco de dados (criado automaticamente na pasta do projeto)

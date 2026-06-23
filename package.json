@@ -8,9 +8,9 @@
     "deploy": "node deploy-commands.js"
   },
   "dependencies": {
+    "better-sqlite3": "^12.11.1",
     "discord.js": "^14.26.4",
     "dotenv": "^16.6.1",
-    "node-sqlite3-wasm": "^0.8.58",
-    "sqlite3": "^5.1.7"
+    "node-sqlite3-wasm": "^0.8.58"
   }
 }
